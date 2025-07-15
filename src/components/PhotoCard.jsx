@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
+import { useIntersectionObserver } from '../hooks/useIntersectionobserver';
 import { generateThumbnail, applyGrayscaleFilter } from '../utils/canvasUtils';
 
 const PhotoCard = ({ photo, onPhotoUpdate }) => {
